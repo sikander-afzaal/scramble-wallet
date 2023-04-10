@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center w-full flex-col;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[980px];
+  }
+}
+@layer base {
+  body {
+    @apply bg-body bg-[40px__164px] bg-repeat min-h-screen w-full bg-[#000403];
+  }
+}

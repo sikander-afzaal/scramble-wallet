@@ -1,23 +1,26 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
     <header className="wrapper pt-5">
       <div className="contain justify-between items-center gap-4">
-        <img src="/logo.svg" className="h-[40px] object-contain" alt="" />
+        <Link to={"/"}>
+          <img src="/logo.svg" className="h-[40px] object-contain" alt="" />
+        </Link>
         <nav
           className={`sm:static fixed w-full sm:w-auto h-full sm:h-auto top-0 z-[80px] flex-col sm:flex-row ${
             headerToggle ? "right-0" : "-right-full"
           } transition-all duration-500 flex justify-start items-center  pt-[6rem] pb-[3rem] px-[3rem] sm:p-0 overflow-y-auto sm:overflow-visible bg-black sm:bg-transparent gap-5`}
         >
-          <a
+          <Link
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            to="/info"
             className="text-text text-lg sm:text-sm hover:text-primary"
           >
-            Tutorial
-          </a>
+            Info
+          </Link>
           <a
             onClick={() => setHeaderToggle(false)}
             href="#"

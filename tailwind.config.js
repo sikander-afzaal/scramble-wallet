@@ -11,6 +11,7 @@ export default {
         primary: "#94febf",
         dark: "#000403",
         darkPrimary: "#0e1f17",
+        greenText: "#44f1a6",
         text: "#eee",
         lightGray: "#393939",
       },

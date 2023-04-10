@@ -11,6 +11,9 @@
   .contain {
     @apply flex w-[90%] max-w-[980px];
   }
+  .title {
+    @apply text-xl sm:text-3xl text-text font-bold capitalize;
+  }
 }
 @layer base {
   body {

@@ -44,7 +44,7 @@ const Faq = () => {
         "Yes, you can use the compliance tool to generate a report which proves your source of funds.",
     },
     {
-      question: "What is TORN contract address on etherscan?",
+      question: "What is Scramble.Wallet contract address on etherscan?",
       answer: (
         <a
           href="https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c"

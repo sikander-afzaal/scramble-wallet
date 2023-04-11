@@ -2,14 +2,14 @@ const Status = () => {
   return (
     <div className="contain flex-col justify-start mt-[80px] sm:mt-[100px] items-center ">
       <div className="text-center">
-        <h3 className="title">
-          Status of <span className="text-greenText">Tornado Cash</span>{" "}
+        <h3 className="title mb-3">
+          Status of <span className="text-greenText">scramble.wallet</span>{" "}
           decentralization
         </h3>
         <p className="text-text text-sm">
-          <span className="text-greenText font-semibold">Tornado Cash</span>{" "}
+          <span className="text-greenText font-semibold">scramble.wallet</span>{" "}
           protocol is fully decentralized and owned by the community:{" "}
-          <span className="text-greenText font-semibold">Tornado Cash</span>{" "}
+          <span className="text-greenText font-semibold">scramble.wallet</span>{" "}
           initial developers have no control over it and are not running any
           servers
         </p>
@@ -18,7 +18,9 @@ const Status = () => {
         <StatusBox
           text={
             <p className="text-xs text-text text-center max-w-[88%] w-full absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 ">
-              <span className="text-greenText font-semibold">Tornado Cash</span>{" "}
+              <span className="text-greenText font-semibold">
+                scramble.wallet
+              </span>{" "}
               smart contracts, circuits, and toolchain are fully open sourced.
             </p>
           }
@@ -26,10 +28,10 @@ const Status = () => {
         <StatusBox
           text={
             <p className="text-xs text-text text-center max-w-[88%] w-full absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 ">
-              <span className="text-greenText">Tornado Cash</span> smart
+              <span className="text-greenText">scramble.wallet</span> smart
               contracts are unstoppable: there are no admins and no
               upgradability. Nobody including{" "}
-              <span className="text-greenText">Tornado Cash</span> initial
+              <span className="text-greenText">scramble.wallet</span> initial
               developers can change it or shut it down.
             </p>
           }
@@ -45,7 +47,7 @@ const Status = () => {
         <StatusBox
           text={
             <p className="text-xs text-text text-center max-w-[88%] w-full absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 ">
-              <span className="text-greenText">Tornado Cash</span> governance
+              <span className="text-greenText">scramble.wallet</span> governance
               and mining smart contracts are deployed by the community in a
               decentralized way, there is no single deployer.
             </p>
@@ -71,9 +73,9 @@ const Status = () => {
         <StatusBox
           text={
             <p className="text-xs text-text text-center max-w-[88%] w-full absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 ">
-              <span className="text-greenText">Tornado Cash</span> protocol is
-              developed based on awesome open source research by Zcash team with
-              the help of amazing Ethereum community.
+              <span className="text-greenText">scramble.wallet</span> protocol
+              is developed based on awesome open source research by Zcash team
+              with the help of amazing Ethereum community.
             </p>
           }
         />

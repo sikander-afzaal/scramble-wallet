@@ -26,8 +26,8 @@ const Dapp = () => {
               </svg>
               <div className="absolute skew-x-[20deg] -z-10 bg-[#1d1d1d] border-r border-solid border-lightGray -top-[1px] -bottom-[1px] rounded-tr-[2px] -left-1/2 -right-[0.2rem]"></div>
             </div>
-            <p className="text-sm text-text pl-3 py-[14px] text-center">
-              Tornado.cash was audited. However, it is still an experimental
+            <p className="text-xs text-text pl-3 py-[14px] text-center">
+              scramble.wallet was audited. However, it is still an experimental
               software. Please use at your own risk.
             </p>
             <button

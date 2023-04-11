@@ -42,7 +42,7 @@ const LeftDapp = () => {
       {tab === "deposit" && <DepositTab />}
       {tab === "withraw" && <WithrawTab />}
       <div className="relative isolate text-primary text-[10px] border-primary border-solid border-l border-b pl-[1.75rem] mr-[1.75rem] rouned-bl bg-dark pr-[0.625rem] py-[0.68rem]">
-        eth-01.tornadocash.eth
+        eth-01.scramble.wallet.eth
         <div className="absolute -z-10 border-primary -right-4 border-r border-b-[0.5px] border-solid bg-dark w-[2.5rem] -bottom-[1px] top-0 -skew-x-[20deg]"></div>
       </div>
     </div>

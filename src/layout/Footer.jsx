@@ -9,7 +9,7 @@ const Footer = () => {
           </span>
         </p>
         <div className="flex justify-start items-center sm:gap-0 gap-2 sm:items-end flex-col">
-          <p className="text-text text-[10px]">Tornado.cash v2.22</p>
+          <p className="text-text text-[10px]">scramble.wallet v2.22</p>
           <div className="flex justify-start items-center gap-2">
             <a href="#" target="blank">
               <img src="/twitter.svg" alt="" />

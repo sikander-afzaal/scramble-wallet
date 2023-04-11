@@ -6,17 +6,17 @@ const Products = () => {
         <ProductCard
           img="/governance.svg"
           title="Governance"
-          text="Tornado Cash is completely decentralized, controlled and governed by its community. By acquiring TORN tokens, you can participate by voting on governance proposals and weighing in on the evolution of the protocol."
+          text="scramble.wallet is completely decentralized, controlled and governed by its community. By acquiring TORN tokens, you can participate by voting on governance proposals and weighing in on the evolution of the protocol."
         />
         <ProductCard
           img="/mining.svg"
           title="Anonymity Mining"
-          text="By using Tornado Cash, you also mine TORN, the governance token of Tornado Cash. The more you use it, the more say you have in the evolution of the protocol."
+          text="By using scramble.wallet, you also mine TORN, the governance token of scramble.wallet. The more you use it, the more say you have in the evolution of the protocol."
         />
         <ProductCard
           img="/compliance.svg"
           title="Compliance"
-          text="Maintaining financial privacy is essential to preserving our freedoms. Tornado Cash has built-in tools for proving your transaction history and selectively disclosing Tornado deposits."
+          text="Maintaining financial privacy is essential to preserving our freedoms. scramble.wallet has built-in tools for proving your transaction history and selectively disclosing Tornado deposits."
         />
         <ProductCard
           img="/trusted.svg"
@@ -26,7 +26,7 @@ const Products = () => {
         <ProductCard
           img="/airdrop.svg"
           title="Initiation"
-          text="Tornado Cash Governance protocol was deployed by community in a decentralized way. It's only possible using CREATE2 opcode and EIP-2470 deployer."
+          text="scramble.wallet Governance protocol was deployed by community in a decentralized way. It's only possible using CREATE2 opcode and EIP-2470 deployer."
         />
       </div>
     </div>

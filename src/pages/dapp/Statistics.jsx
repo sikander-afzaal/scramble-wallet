@@ -39,7 +39,7 @@ const Statistics = () => {
             />
           </svg>
           {showTooltipAmount && (
-            <Tooltip text="Each amount is a standalone Tornado Cash instance with a separate anonymity set. Check the stats tab for more info." />
+            <Tooltip text="Each amount is a standalone scramble.wallet instance with a separate anonymity set. Check the stats tab for more info." />
           )}
         </p>
         <p className="text-base text-text">27627 equal user deposits</p>

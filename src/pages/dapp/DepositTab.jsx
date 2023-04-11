@@ -97,7 +97,7 @@ const DepositTab = () => {
             />
           </svg>
           {showTooltipAmount && (
-            <Tooltip text="Each amount is a standalone Tornado Cash instance with a separate anonymity set. Check the stats tab for more info." />
+            <Tooltip text="Each amount is a standalone scramble.wallet instance with a separate anonymity set. Check the stats tab for more info." />
           )}
         </p>
         <div className="grid mt-2 grid-cols-4 relative place-items-center isolate min-w-full">

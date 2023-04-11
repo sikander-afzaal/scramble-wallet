@@ -9,13 +9,13 @@ const Privacy = () => {
         />
         <div className="flex justify-start items-start flex-col gap-5">
           <h3 className="title">
-            How <span className="text-greenText">Tornado Cash</span> achieves
+            How <span className="text-greenText">scramble.wallet</span> achieves
             privacy
           </h3>
           <p className="text-sm text-text">
-            Tornado Cash improves transaction privacy by breaking the on-chain
-            link between source and destination addresses. It uses a smart
-            contract that accepts ETH deposits that can be withdrawn by a
+            scramble.wallet improves transaction privacy by breaking the
+            on-chain link between source and destination addresses. It uses a
+            smart contract that accepts ETH deposits that can be withdrawn by a
             different address. To preserve privacy a relayer can be used to
             withdraw to an address with no ETH balance. Whenever ETH is
             withdrawn by the new address, there is no way to link the withdrawal

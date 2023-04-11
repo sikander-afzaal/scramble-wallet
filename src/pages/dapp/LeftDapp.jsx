@@ -6,7 +6,7 @@ const LeftDapp = () => {
   const [tab, setTab] = useState("deposit");
 
   return (
-    <div className="w-full flex justify-start items-start flex-col">
+    <div className="w-full flex  justify-start items-start flex-col">
       <div className="w-full flex justify-between items-center">
         <button
           onClick={() => setTab("deposit")}

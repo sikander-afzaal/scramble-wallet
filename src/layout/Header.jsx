@@ -10,10 +10,25 @@ const Header = () => {
           <img src="/logo.svg" className="h-[40px] object-contain" alt="" />
         </Link>
         <nav
-          className={`sm:static fixed w-full sm:w-auto h-full sm:h-auto top-0 z-[80px] flex-col sm:flex-row ${
+          className={`sm:static fixed w-full sm:w-auto h-full sm:h-auto top-0 z-[80] flex-col sm:flex-row ${
             headerToggle ? "right-0" : "-right-full"
           } transition-all duration-500 flex justify-start items-center  pt-[6rem] pb-[3rem] px-[3rem] sm:p-0 overflow-y-auto sm:overflow-visible bg-black sm:bg-transparent gap-5`}
         >
+          <svg
+            onClick={() => setHeaderToggle(false)}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="white"
+            className="w-6 h-6 absolute top-4 right-4 cursor-pointer sm:hidden block"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
           <Link
             onClick={() => setHeaderToggle(false)}
             to="/info"
@@ -39,39 +54,22 @@ const Header = () => {
             Connect
           </button>
         </nav>
-        {headerToggle ? (
-          <svg
-            onClick={() => setHeaderToggle(false)}
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="white"
-            className="w-6 h-6 relative z-[100] cursor-pointer sm:hidden block"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        ) : (
-          <svg
-            onClick={() => setHeaderToggle(true)}
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="white"
-            className="w-6 h-6 relative z-[100] cursor-pointer sm:hidden block"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-            />
-          </svg>
-        )}
+
+        <svg
+          onClick={() => setHeaderToggle(true)}
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="white"
+          className="w-6 h-6  cursor-pointer sm:hidden block"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+          />
+        </svg>
       </div>
     </header>
   );

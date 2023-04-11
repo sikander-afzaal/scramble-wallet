@@ -51,7 +51,7 @@ const Dapp = () => {
             </button>
           </div>
         )}
-        <div className="grid grid-cols-1 xl:grid-cols-2 mt-5 w-full gap-10 xl:gap-20">
+        <div className="grid grid-cols-1  xl:grid-cols-2 mt-5 w-full gap-10 xl:gap-20">
           <LeftDapp />
           <Statistics />
         </div>

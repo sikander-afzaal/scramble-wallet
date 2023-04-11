@@ -8,7 +8,7 @@ const Footer = () => {
             0x8589427373D6D84E98730D7795D8f6f8731FDA16
           </span>
         </p>
-        <div className="flex justify-start items-center sm:items-end flex-col">
+        <div className="flex justify-start items-center sm:gap-0 gap-2 sm:items-end flex-col">
           <p className="text-text text-[10px]">Tornado.cash v2.22</p>
           <div className="flex justify-start items-center gap-2">
             <a href="#" target="blank">

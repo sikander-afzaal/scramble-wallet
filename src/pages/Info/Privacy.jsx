@@ -36,7 +36,7 @@ export default Privacy;
 
 const StatBox = ({ img, val, title }) => {
   return (
-    <div className="border-greenText w-full lg:w-[252px] rounded-2xl border  p-5  flex justify-start items-start flex-col gap-2">
+    <div className="border-greenText bg-dark w-full lg:w-[252px] rounded-2xl border  p-5  flex justify-start items-start flex-col gap-2">
       <img
         src={img}
         className="w-[30px] h-[30px] object-contain self-end"

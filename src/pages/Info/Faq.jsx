@@ -32,7 +32,7 @@ const Faq = () => {
     {
       question: "What is a relayer?",
       answer:
-        "Relayers are used to withdraw to an account with no ETH balance. The relayer sends a withdrawal transaction and takes a part of the deposit as compensation (the protocol itself does not collect any fees). The relayer cannot change any withdrawal data including recipient address. The scramble.wallet initial developers do not control or play any role in relaying transactions, the relay network is independent and run by community. If you want to run your own relayer, follow these instructions.",
+        "Relayers are used to withdraw to an account with no ETH balance. The relayer sends a withdrawal transaction and takes a part of the deposit as compensation. The relayer cannot change any withdrawal data including recipient address. The scramble.wallet initial developers do not control or play any role in relaying transactions, the relay network is independent and run by community. If you want to run your own relayer, follow these instructions.",
     },
     {
       question: "Is the code open-source?",

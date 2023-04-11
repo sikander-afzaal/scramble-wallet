@@ -6,17 +6,17 @@ const Products = () => {
         <ProductCard
           img="/governance.svg"
           title="Governance"
-          text="scramble.wallet is completely decentralized, controlled and governed by its community. By acquiring TORN tokens, you can participate by voting on governance proposals and weighing in on the evolution of the protocol."
+          text="scramble.wallet is completely decentralized, controlled and governed by its community. By acquiring token tokens, you can participate by voting on governance proposals and weighing in on the evolution of the protocol."
         />
         <ProductCard
           img="/mining.svg"
           title="Anonymity Mining"
-          text="By using scramble.wallet, you also mine TORN, the governance token of scramble.wallet. The more you use it, the more say you have in the evolution of the protocol."
+          text="By using scramble.wallet, you also mine token, the governance token of scramble.wallet. The more you use it, the more say you have in the evolution of the protocol."
         />
         <ProductCard
           img="/compliance.svg"
           title="Compliance"
-          text="Maintaining financial privacy is essential to preserving our freedoms. scramble.wallet has built-in tools for proving your transaction history and selectively disclosing Tornado deposits."
+          text="Maintaining financial privacy is essential to preserving our freedoms. scramble.wallet has built-in tools for proving your transaction history and selectively disclosing tokenado deposits."
         />
         <ProductCard
           img="/trusted.svg"

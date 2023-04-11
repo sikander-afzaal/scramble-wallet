@@ -7,7 +7,9 @@ const Header = () => {
     <header className="wrapper pt-5">
       <div className="contain justify-between items-center gap-4">
         <Link to={"/"}>
-          <img src="/logo.svg" className="h-[40px] object-contain" alt="" />
+          <h3 className="text-greenText uppercase font-bold text-3xl">
+            Scrambled
+          </h3>
         </Link>
         <nav
           className={`sm:static fixed w-full sm:w-auto h-full sm:h-auto top-0 z-[80] flex-col sm:flex-row ${

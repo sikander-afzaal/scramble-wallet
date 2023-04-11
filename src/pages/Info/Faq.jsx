@@ -11,7 +11,7 @@ const Faq = () => {
     {
       question: "Do you collect data?",
       answer:
-        "The scramble.wallet project does not collect any user data. The UI is hosted in a decentralized way on IPFS and can be accessed using following link tornadocash.eth.link. Users can also run it locally or use the CLI tool.",
+        "The scramble.wallet project does not collect any user data. The UI is hosted in a decentralized way on IPFS and can be accessed using following link tokenadocash.eth.link. Users can also run it locally or use the CLI tool.",
     },
     {
       question:
@@ -36,7 +36,7 @@ const Faq = () => {
     },
     {
       question: "Is the code open-source?",
-      answer: "https://github.com/tornadocash",
+      answer: "https://github.com/tokenadocash",
     },
     {
       question: "Can I prove my source of funds if I use scramble.wallet?",
